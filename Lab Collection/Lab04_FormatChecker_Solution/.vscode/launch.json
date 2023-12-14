@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args":"noSuchFile invalid1.dat invalid2.dat invalid3.dat invalid4.dat invalid5.dat invalid6.dat invalid7.dat invalid8.dat valid1.dat valid2.dat valid3.dat",
+        },
+        {
+            "type": "java",
+            "name": "FormatChecker",
+            "request": "launch",
+            "mainClass": "FormatChecker",
+            "args":"noSuchFile invalid1.dat invalid2.dat invalid3.dat invalid4.dat invalid5.dat invalid6.dat invalid7.dat invalid8.dat valid1.dat valid2.dat valid3.dat",
+        }
+    ]
+}

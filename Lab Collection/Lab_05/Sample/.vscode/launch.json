@@ -1,0 +1,10 @@
+{
+	"configurations": [
+		{
+			"type": "java",
+			"name": "CodeLens (Launch) - DoSomethingTest",
+			"request": "launch",
+			"mainClass": "DoSomethingTest"
+		}
+	]
+}
